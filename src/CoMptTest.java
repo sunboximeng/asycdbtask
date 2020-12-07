@@ -57,6 +57,8 @@ public class CoMptTest {
             merge = merge.stream().distinct().collect(Collectors.toList());
             esnList.add(merge);
         }
+        
+        // merge set https://blog.csdn.net/scl323/article/details/87367652
         System.out.println(esnList);
     }
 
